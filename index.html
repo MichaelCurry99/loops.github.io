@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Star rating</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+Question: <input id="question">
+
+<button id="say">Ask</button>
+ 
+<hr>
+<div id="result"></div>
+ 
+<script>
+function search() {
+    var question = document.getElementById('question').value;
+ 
+    var html = '<b> Ask Michael about these questions by contacting (901)-908-8888. </b> ';
+ 
+    document.getElementById('result').innerHTML = html;
+}
+ 
+document.getElementById('say').addEventListener('click', search);
+</script>
+
+  <site name="MichaelsAuction" id="11">
+    <application path="/" applicationPool="Clr4IntegratedAppPool">
+        <virtualDirectory path="/" physicalPath="C:/Users/madzz/OneDrive/Desktop/ArtAuction/index.html" />
+    </application>
+    <bindings>
+        <binding protocol="http" bindingInformation="*:60826:localhost" />
+    </bindings>
+
+</site>
+
+  <body>
+  
+  
+	<h1> Online Art Auction</h1>
+  
+	 <h2>Welcome to Michael's Online Art Auction!</h2>
+	 <h3> <p>It's the best around the entire known websites and no other other Auction
+	   can ever operate as fast us! </p> </h3>
+  
+	   <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-VOSTbkx82_8%2FTfHLB9ld57I%2FAAAAAAAAAA4%2FtRbBTrMu0Q0%2Fs1600%2Fhorse-abstract-art.jpg&f=1&nofb=1
+	   " alt="Art"> 
+  
+	   <p><li>If you're looking for local artists,<a href="https://www.thumbtack.com/k/custom-artists/near-me/?gclid=f872c0b40bea192745cca1cd991e1ad6&gclsrc=3p.ds&utm_medium=cpc&utm_source=cma-bing&utm_campaign=s-c-353836897-1225955596308561--kwd-76622332320767%3Aloc-71236-e&~campaign_id=353836897&%243p=a_google_adwords&feature=paid%20advertising&msclkid=f872c0b40bea192745cca1cd991e1ad6&_branch_match_id=981967185692131669&_branch_referrer=H4sIAAAAAAAAA42QzWrEIBSFnybZmYk68acgpVDmNcRczQ%2FRJKhpdn32moG2yxZ04eH4nXvulPOeXm63PB2hzwaWxux74%2Bd1udH99chBB2fnIyjYob6eaTsiOAXBoH5ex6cGJuxmHleVECDaUUGZkBxhQjrZdZ1ktBUdwwgtp0WcMUIoJZS0nPGKvvkNEMeEMuTqz2%2BUnq36IdUVudNdGT1u2%2BidNvbcok2XPBjv%2BzK2PqJX01WmECvyKOc8z%2Ba3FmyhaEu5cKS8BWRinlNORVidiSi46xd9jOBnW9H3QXACbX9ve2ewJPzeARgMVkrssLGsIqxYU4TipXtjC4jVgzP5iE6VCrYirbEf7kq59hQS%2BKWU%2BotbPwf4l62Eq2d0rXUfzQqTHvx2XquTAkvGseh4K2QrhGBfUFSf3ekBAAA%3D"><button>Click Here</button></a></li></p>
+  
+	   <p><li>For Art to Buy, <a href="https://www.art.com/"><button>Click Here</button></a></li></p>
+  
+	   <p><li>For Art to Sell, <a href="https://www.artsy.net/consign"><button>Click Here</button></a></li></p>
+
+	   <h5> © Copyyright, 2022</h5>
+	 
+	   <h4> How would you rate this website?</h4>
+
+	   <body>
+		<div class="container">
+			<div class="rating-wrap">
+				<h2>Star Rating</h2>
+				<div class="center">
+					<fieldset class="rating">
+						<input type="radio" id="star5" name="rating" value="5"/><label for="star5" class="full" title="Awesome"></label>
+						<input type="radio" id="star4.5" name="rating" value="4.5"/><label for="star4.5" class="half"></label>
+						<input type="radio" id="star4" name="rating" value="4"/><label for="star4" class="full"></label>
+						<input type="radio" id="star3.5" name="rating" value="3.5"/><label for="star3.5" class="half"></label>
+						<input type="radio" id="star3" name="rating" value="3"/><label for="star3" class="full"></label>
+						<input type="radio" id="star2.5" name="rating" value="2.5"/><label for="star2.5" class="half"></label>
+						<input type="radio" id="star2" name="rating" value="2"/><label for="star2" class="full"></label>
+						<input type="radio" id="star1.5" name="rating" value="1.5"/><label for="star1.5" class="half"></label>
+						<input type="radio" id="star1" name="rating" value="1"/><label for="star1" class="full"></label>
+						<input type="radio" id="star0.5" name="rating" value="0.5"/><label for="star0.5" class="half"></label>
+					</fieldset>
+				</div>
+	
+				<h4 id="rating-value"></h4>
+			</div>
+		</div>
+	
+		<script src="star-ratings.js"></script>
+  
+	   
+  
+  
+	  
+	  
+</body>
+</html>
